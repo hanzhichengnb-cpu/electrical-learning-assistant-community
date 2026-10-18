@@ -1,0 +1,9 @@
+# Source-range note authoring
+
+Use for new or requested regenerated source-range notes when the workspace provides a compatible page-study contract. Follow the workspace's explicit rules for model selection, authorship, delegation, and review. If it has no such rules, use the active conversation's selected model and keep authorship and review provenance accurate. Never claim a model switch, delegation, or independent review unless the environment actually performed it. Preserve existing notes and their recorded evidence; do not bulk rewrite them.
+
+Resolve and inspect the registered original PDF. Start with `reading.py init-pages`; plan all requested physical pages and their prerequisites before drafting. Difficulty determines explanation depth and what to check, never the model. For a long lecture, first finish a sparse, formula-dense and diagram-dense pilot where available; inspect its real source frames/numbers and print layout before producing the remainder. Stop batch production on a failed pilot.
+
+Write specific source regions, attached numbered points and complete nearby teaching. Do a separate exact-body review against the original after drafting, recording coverage and teaching judgments separately with concrete evidence. Do not call the drafting pass itself an independent reviewer. Follow the workspace's dependency, source-annotation, and review contracts for structure and teaching.
+
+Build only through `reading.py render-model`. A custom PDF or `reading_layout` string alone is diagnostic, not a passed note. Inspect every point at the required MacBook sizes and every PDF page, then bind the all-page visual review to the Staging library spec. Run the read-only `reading.py library-preflight --spec ...`; only a passing result permits describing or linking the Staging note as complete. If it fails, leave the note Staging and identify the missing or failed gate. This command does not publish or change Canonical/personal data.
