@@ -1,4 +1,0 @@
-interface:
-display_name: "Electrical Learning Assistant Community Edition"
-short_description: "Study electrical engineering in a compatible local workspace"
-default_prompt: "Use $electrical-learning-assistant-community to continue my electrical engineering study in a compatible local learning workspace."

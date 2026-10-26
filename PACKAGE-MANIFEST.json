@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0-preview",
+  "files": {
+    ".gitignore": "a48d2d3f158321d15215bc2ea5dba4d8f4fccc51f6d7bb83fb83476402dc63ce",
+    "README.md": "e21a13ae17465f60f462f3c072fc20537d80ad7b17727bcc3430ea36edbcbfb9",
+    "SKILL.md": "d2755545f633de6c1ed142283c78d60ca901f04cb573f7ea7c7798e3c7ec04c3",
+    "THIRD_PARTY.md": "14acdf048f9b8b9a5c8304bfdcbe8a877358626ed1d456997588b67efbb988fa",
+    "VERSION": "8f8ada7463f7520c01add507b1c01f1207fc90082adb62f654c18c36d648e389",
+    "assets/reader.css": "d640f56897840991fcaa21cd492dce17446694261268d9cd74a69ee7d24570c8",
+    "assets/reader.js": "6ee956f74e26b8a6064bdc373650a3073f089cfce3be3e07a0182ac0132b0b0c",
+    "assets/vendor/MathJax-LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "assets/vendor/mathjax-tex-svg.js": "a4354ff94fd868aea0cc6eaaa79a57fda0588646fc46ee3700a349ee0a11cbe6",
+    "references/format.md": "2f79aade567561046e59191fc59517d5f0b1553b67c80bfd418339e4fd248c1e",
+    "references/teaching.md": "b5b8af37f4f97fa0e8493521fea890768a3ec8e4d6c0df636199e6358995a538",
+    "references/workflow.md": "e517b3dfd087bf14004873b2bcfa96e9855bc432e163a9d86f8535a7cc474e67",
+    "scripts/bootstrap.py": "3ec88e70c55d2cd400a84d74fabef29f07c1e0d01ae15ab048ad44ffb7543b49",
+    "scripts/check_reader.mjs": "93c4a18dba8b5b46f492c68b4930f08cea00cc4df3a312a989670b913a66a5d2",
+    "scripts/notes.py": "6dc794b90e0992fbbb4fe4949fd70397d0e19a660fb2ed7c6791a48ef6e4f072",
+    "scripts/requirements.txt": "13cbf79ab6576f9f142d19d02f45331be55da7963da8c468b91ab05335768d0a"
+  }
+}
