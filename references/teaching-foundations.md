@@ -1,6 +1,6 @@
 # Establish understanding before using knowledge
 
-Apply to every course's new notes and requested regeneration, including source-range notes, Canonical reading views and Bundles. Read the workspace's current universal teaching and page-study specifications when available. Preserve provenance and exact-version knowledge approval.
+Apply to every course's new notes and requested regeneration, including source-range notes, Canonical reading views and Bundles. Read the workspace's current universal teaching and page-study specifications, including `teaching-understanding-chain-v1.4.md` when present. Preserve provenance and exact-version knowledge approval.
 
 ## Authoring pass
 
@@ -13,12 +13,14 @@ Before prose, inspect source evidence and separately inventory content and under
 - Interpret figures, tables and examples using the dimensions the content needs: objects, connections, arrows, axes, comparisons, knowns, goals, strategy and calculations.
 - Label supplements; explain their new concepts, relevance and limits. Remove additions that increase prerequisite burden without helping current understanding.
 - Locally recap necessary prior knowledge and give a verified page or note locator. Earlier mention is not proof of comprehension. Adapt depth without word quotas, term quotas or compulsory prose headings.
+- On technical pages, begin by naming the actual object, question, connection to nearby learning and what the learner should be able to do. State key symbols' physical or diagram referents and their known/unknown/intermediate roles in the reasoning, not merely names and units. Close with source-justified conclusions to remember, relationships to understand and steps to perform, including conditions; call these page core outcomes when exam evidence is absent.
+- Distinguish source-stated conditions, derivation-required but unstated conditions, and assumptions used only in added examples. Explain why each matters and mark uncertainty where source evidence is insufficient.
 
 ## Separate review pass
 
 Reopen original source pages after authoring. Judge coverage separately from understandability; coverage can pass while teaching fails. Read as a learner and ask what every important concept means, why every condition follows and why each key step/method works. Search for dependencies missing from the inventory and definitions relying on other unexplained terms; repair the inventory and prose together.
 
-Record concrete body passages and reasons for: meaning/context; non-circular explanation; English–Chinese–source mapping; condition reasoning; symbols/laws/intermediate steps; figures/tables/examples; supplemental load; prior-knowledge recap. Give specific reasons for inapplicable dimensions. For each necessary dependency, cite its establishment/recap and first inference use, verifying order. A vocabulary entry, formula count, length or covers tag cannot certify teaching.
+Record concrete body passages and reasons for: meaning/context; non-circular explanation; English–Chinese–source mapping; condition reasoning; symbols/laws/intermediate steps; figures/tables/examples; supplemental load; prior-knowledge recap. Give specific reasons for inapplicable dimensions. For each necessary dependency, cite its establishment/recap and first inference use, verifying order. Actively log each point where a weak-foundations reader would lose the problem, an unfamiliar term, an unexplained step or a conclusion without a reason: original passage, missing bridge, actual repair and recheck. A vocabulary entry, formula count, length, covers tag, completed review field or author-answerable self-check cannot certify teaching or actual student understanding.
 
 With a v2 page contract, author the schema-2 model-bound coverage and teaching records specified by the workspace; never upgrade a v1 checklist by changing its contract name. Keep failed/pending judgments in Staging and repair before publication. Deterministic checks validate record structure, evidence and ordering, not semantic sufficiency. For legacy Bundle/single-object renderers, retain a concrete evidence-backed teaching audit in Staging; their renderer cannot certify v2 automatically.
 

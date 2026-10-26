@@ -9,9 +9,11 @@ A Codex-first Agent Skill for studying electrical engineering with a local, sour
 ## Get the Skill
 
 - **Repository:** <https://github.com/hanzhichengnb-cpu/electrical-learning-assistant-community>
+- **Download the complete latest package (ZIP):** <https://github.com/hanzhichengnb-cpu/electrical-learning-assistant-community/archive/refs/heads/main.zip>
+- **Dated snapshot (2026-10-26):** <https://github.com/hanzhichengnb-cpu/electrical-learning-assistant-community/tree/skill-snapshot-2026-10-26>
 - **Main instructions:** <https://raw.githubusercontent.com/hanzhichengnb-cpu/electrical-learning-assistant-community/main/SKILL.md>
 
-The repository link is the best link to give an AI: it can read `SKILL.md` and follow its links to the relevant workflows, references, scripts, and assets. The raw `SKILL.md` link is useful for a quick inspection, but does not contain the complete bundle by itself.
+The repository link is the best link to give an AI: it can read `SKILL.md` and follow its links to the relevant workflows, references, scripts, and assets. The raw `SKILL.md` link is useful for a quick inspection, but does not contain the complete bundle by itself. An AI with download access can download and extract the ZIP above, then read `SKILL.md` and its linked resources. The stable repository and latest ZIP links follow future updates; dated snapshots and commit history preserve earlier versions.
 
 ## What it can do
 
@@ -19,6 +21,8 @@ The repository link is the best link to give an AI: it can read `SKILL.md` and f
 |---|---|
 | Resume a study session | Read the workspace's saved source, page, review status, and next action before continuing. |
 | Study course materials | Work from source pages, explain concepts and prerequisites, and prepare source-linked reading notes using the workspace's supported format. |
+| Prepare and grade self-tests | Connect related source knowledge around shared figures, models, or derivations while retaining individually gradable basic checks. |
+| Organize course materials | Build a course homepage from verified notes, originals, exercises, and self-test files, showing only available categories and supported relationships. |
 | Solve problems | Identify the problem structure, retrieve relevant approved knowledge and course-page references, verify decisive source details, and explain the reasoning. |
 | Reflect and retain knowledge | Keep normal solving conversational; prepare a review item only after the learner chooses to save it. |
 | Review and publish knowledge | Present the exact version for the learner to approve before adding or materially revising durable knowledge. |
@@ -33,7 +37,10 @@ For an AI that can access public GitHub repositories, share the repository link 
 ```text
 Please use the Electrical Learning Assistant Community Edition from
 https://github.com/hanzhichengnb-cpu/electrical-learning-assistant-community.
-Read SKILL.md and the supporting files relevant to my request. First check
+Read SKILL.md and the supporting files relevant to my request. Download the
+complete package if your environment supports downloads:
+https://github.com/hanzhichengnb-cpu/electrical-learning-assistant-community/archive/refs/heads/main.zip
+First check
 whether I have provided a compatible local electrical-engineering learning
 workspace. If I have, use that workspace and follow its saved state and review
 rules. If I have not, explain what is missing; do not imply that you can see my
@@ -76,7 +83,8 @@ Course PDFs, personal annotations, study progress, knowledge objects, and the lo
 - **Designed for:** Codex with local filesystem access to a compatible electrical-engineering learning workspace.
 - **Can be read by:** Other AI assistants with public GitHub or web access and the ability to follow Markdown links.
 - **Needs adaptation outside Codex:** Workspace commands, local file access, and any environment-specific rendering or browser workflow must be supported by that AI environment. Reading the instructions alone does not supply those tools.
-- **Workspace line:** Prepared as a separate public iteration based on the Electrical Engineering Learning System V1.3 line. Workspace release numbers and Skill revisions are tracked independently.
+- **Workspace line:** Updated on 2026-10-26 from the latest reusable Skill guidance, with the V1.3 baseline and optional V1.4 teaching/annotation contracts when present. Workspace release numbers and Skill revisions are tracked independently.
+- **Capability checks:** Self-tests and course-homepage organization require the relevant source files and local rendering or reader tools. New outline geometry and live-reader checks require matching workspace contracts and renderer support. The AI must check these capabilities first and explain missing support rather than inventing commands or claiming a passed result.
 
 ## Repository contents
 
@@ -118,4 +126,4 @@ No license has been selected for this public edition yet. Public visibility perm
 
 ### 当前边界
 
-公开版以 Codex 和 V1.3 学习工作区为主要适配对象。其他 AI 可以读取这些 Markdown 指令，但需要具备相应的本地文件和命令执行能力；不同平台可能需要额外适配。没有兼容工作区时，它仍可以阅读说明，但不能声称能访问个人学习记录或执行保存、续学等工作区操作。
+公开版已于 2026-10-26 同步最新可复用工作流，保留 V1.3 基线，并在工作区具备相应契约时使用 V1.4 教学与标注规则。新增关联式自测与批改、按实际文件组织课程资料首页，以及更严格的原文标注和实时阅读页检查。可直接把仓库链接发给 AI；支持下载的 AI 也可以从上方 ZIP 链接获取完整包。日期快照和提交历史保留旧版本。其他 AI 可以读取这些 Markdown 指令，但需要具备相应的本地文件和命令执行能力；不同平台可能需要额外适配。没有兼容工作区时，它仍可以阅读说明，但不能声称能访问个人学习记录或执行保存、续学等工作区操作。
